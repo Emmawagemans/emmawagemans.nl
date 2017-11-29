@@ -1,0 +1,19 @@
+$badass: #bada55;
+
+body { 
+    margin: 0; 
+    background-color: $badass; 
+    
+    #div1{
+        background-color: green;
+        height: 500px;
+        width: 500px;
+    }
+
+    p {
+        color:aqua;
+    }
+
+    .button1{ background-color: aqua;}
+}
+

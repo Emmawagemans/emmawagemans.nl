@@ -1,0 +1,24 @@
+{
+  "name": "emmawagemans.nl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmawagemans/emmawagemans.nl.git"
+  },
+  "author": "Emma Wagemans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmawagemans/emmawagemans.nl/issues"
+  },
+  "homepage": "https://github.com/Emmawagemans/emmawagemans.nl#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.12.1"
+  }
+}

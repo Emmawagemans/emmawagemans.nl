@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background-color: #bada55; }
+  body #div1 {
+    background-color: green;
+    height: 500px;
+    width: 500px; }
+  body p {
+    color: aqua; }
+  body .button1 {
+    background-color: aqua; }
