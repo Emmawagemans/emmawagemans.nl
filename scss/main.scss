@@ -1,44 +1,46 @@
-html {
-    height: 100%;
+body {
+    background-image: url("../img/pattern.png");
 
-    body {
-        height: 100%;
-        background-color: #FFEAE6;
-        text-align: center;
+    @media only screen and (max-width: 768px) {
         overflow: hidden;
-        margin: 0;
-
-
-        #wrapper {
-
-            background-color: green;
-            height: 100%;
-
-
-
-            .startlogo {
-                width: 60%;
-                display: block;
-                margin: 0 auto;
-                padding: 3%;
-
-            }
-
-            #modelbox {
-                width: 100%;
-                background-color: blue;
-                height: 20%;
-
-                .model {
-                    float: left;
-
-
-                }
-
-            }
-        }
     }
 
+}
 
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding: 3%;
+    margin-top: 3%;
 
+    @media only screen and (max-width: 768px) {
+        width:90%;
+    }
+
+    @media only screen and (min-width: 768px) {
+        width: 60%;
+    }
+}
+
+.col-md-6 {
+    .hide {
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+}
+
+.modelimg {
+    display: block;
+    margin: 0 auto;
+    padding: 3%;
+
+    @media only screen and (max-width: 768px) {
+        width:60%;
+        margin-top: 3%
+    }
+
+    @media only screen and (min-width: 768px) {
+        width: 60%;
+    }
 }

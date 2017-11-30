@@ -1,22 +1,33 @@
-html {
-  height: 100%; }
-  html body {
-    height: 100%;
-    background-color: #FFEAE6;
-    text-align: center;
-    overflow: hidden;
-    margin: 0; }
-    html body #wrapper {
-      background-color: green;
-      height: 100%; }
-      html body #wrapper .startlogo {
-        width: 60%;
-        display: block;
-        margin: 0 auto;
-        padding: 3%; }
-      html body #wrapper #modelbox {
-        width: 100%;
-        background-color: blue;
-        height: 20%; }
-        html body #wrapper #modelbox .model {
-          float: left; }
+body {
+  background-image: url("../img/pattern.png"); }
+  @media only screen and (max-width: 768px) {
+    body {
+      overflow: hidden; } }
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding: 3%;
+  margin-top: 3%; }
+  @media only screen and (max-width: 768px) {
+    .logo {
+      width: 90%; } }
+  @media only screen and (min-width: 768px) {
+    .logo {
+      width: 60%; } }
+
+@media only screen and (max-width: 768px) {
+  .col-md-6 .hide {
+    display: none; } }
+
+.modelimg {
+  display: block;
+  margin: 0 auto;
+  padding: 3%; }
+  @media only screen and (max-width: 768px) {
+    .modelimg {
+      width: 60%;
+      margin-top: 3%; } }
+  @media only screen and (min-width: 768px) {
+    .modelimg {
+      width: 60%; } }
