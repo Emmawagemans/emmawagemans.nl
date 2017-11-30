@@ -1,8 +1,9 @@
 body {
-  background-image: url("../img/pattern.png"); }
-  @media only screen and (max-width: 768px) {
-    body {
-      overflow: hidden; } }
+  background-color: #f29886;
+  background-image: url(dripping.png);
+  background-size: 60%;
+  background-repeat: repeat-x;
+  overflow: hidden; }
 
 .logo {
   display: block;
@@ -20,14 +21,20 @@ body {
   .col-md-6 .hide {
     display: none; } }
 
+.col-md-6 .right {
+  text-align: right !important; }
+
+.col-md-6 .left {
+  text-align: left !important; }
+
 .modelimg {
   display: block;
   margin: 0 auto;
   padding: 3%; }
   @media only screen and (max-width: 768px) {
     .modelimg {
-      width: 60%;
+      width: 80%;
       margin-top: 3%; } }
   @media only screen and (min-width: 768px) {
     .modelimg {
-      width: 60%; } }
+      width: 25%; } }
