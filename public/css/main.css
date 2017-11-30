@@ -1,11 +1,22 @@
-body {
-  margin: 0;
-  background-color: #bada55; }
-  body #div1 {
-    background-color: green;
-    height: 500px;
-    width: 500px; }
-  body p {
-    color: aqua; }
-  body .button1 {
-    background-color: aqua; }
+html {
+  height: 100%; }
+  html body {
+    height: 100%;
+    background-color: #FFEAE6;
+    text-align: center;
+    overflow: hidden;
+    margin: 0; }
+    html body #wrapper {
+      background-color: green;
+      height: 100%; }
+      html body #wrapper .startlogo {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        padding: 3%; }
+      html body #wrapper #modelbox {
+        width: 100%;
+        background-color: blue;
+        height: 20%; }
+        html body #wrapper #modelbox .model {
+          float: left; }
